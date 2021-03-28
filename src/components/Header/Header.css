@@ -1,0 +1,53 @@
+.header {
+    background-color: #262626;
+    height: max-content;
+    width: 100vw;
+
+    padding: 2rem;
+    font-size: 3rem;
+
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+      font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .header {
+      font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+      font-size: 1.5rem;
+    }
+}
+
+.header__text {
+    margin-right: 2rem;
+    color: white;
+}
+
+.header__nav {
+    flex-grow: 1;
+    justify-content: space-between;
+    display: flex;
+    grid-column-gap: 2rem;
+}
+
+.header__nav--link {
+    text-decoration: none;
+    color: white;
+
+    transition: all .5s;
+}
+
+
+.header__nav--link:hover {
+    color: rgb(47, 47, 219);
+}
