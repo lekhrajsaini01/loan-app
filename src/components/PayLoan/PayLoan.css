@@ -1,0 +1,35 @@
+.pay-loan {
+    width: 80%;
+    margin: 3rem auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    grid-row-gap: 4rem;
+    align-items: center;
+
+}
+
+.pay-now{
+    margin: 0 auto;
+    height: 6rem;
+    background-color: rgb(58, 58, 206);
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+
+    color: white;
+    width: 70%;
+
+    cursor: pointer;
+
+    transition: all .5s;
+}
+
+.pay-now:hover {
+    background-color: blue;
+}

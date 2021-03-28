@@ -1,0 +1,26 @@
+.my-loan {
+    width: 80%;
+    margin: 3rem auto;
+
+    /* display: flex;
+
+    grid-column-gap: 2rem;
+    justify-content: space-between; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+
+}
+
+@media screen and (max-width: 650px) {
+    .my-loan {
+      display: flex;
+      flex-direction: column;
+      grid-row-gap: 2rem;
+
+      width: 90%;
+      margin: 2rem;
+      align-items: center;
+    }
+}
